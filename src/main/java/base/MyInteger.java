@@ -87,8 +87,11 @@ public class MyInteger {
 //Part THREE
 		
 				
-// In this satic method, we will need to use static method to justify whether the number is 
-// odd number, even number or the prime number. However, in this part, the 
+// In this static method, we will need to use static method to justify whether the number is 
+// odd number, even number or the prime number. However, in this part, inside of the
+// static method, we had three different version. The first version is use the (int value).
+//  The second version is use the Myinteger into the static method. The third version is
+// use the same as the previous method  and returns. 
 		
 		
 		
@@ -105,6 +108,8 @@ public class MyInteger {
 		}
 		
 		// Static method that returns true if the given value is odd
+		
+		
 		public static boolean isOdd(int value) 
 		{
 			if (value % 2 == 1)
@@ -117,20 +122,25 @@ public class MyInteger {
 			}
 		}
 		
-		// Static method that returns true if the given value is prime
-		public static boolean isPrime(int z) 
+		
+// Static method that returns true if the given value is prime
+		
+		
+		public static boolean isPrime(int x) 
 		{
 			int i = 0;
-			for (i = 2; i <= z / 2; i++){
+			for (i = 2; i <= x / 2; i++){
 				System.out.print(i);
-				if (z % i != 0){
+				if (x % i != 0){
 					return true;
 				}
 			}
 			return false;
 		}
 		
-		// Static method that returns true if the given value is even
+		
+		
+// Static method that returns true if the given value is even
 		public static boolean isEven(MyInteger myIntx) 
 		{
 			if (myIntx.getValue() % 2 == 0)
@@ -143,7 +153,9 @@ public class MyInteger {
 			}
 		}
 		
-		// Static method that returns true if the given value is odd
+	// Static method that returns true if the given value is odd
+		
+		
 		public static boolean isOdd(MyInteger myInty) 
 		{
 			if (myInty.getValue() % 2 == 1)
@@ -168,6 +180,12 @@ public class MyInteger {
 			}
 			return false;
 		}
+		
+		
+
+		
+//Part FOUR
+		
 		
 		// Returns true if the value in the object is equal to the specified value
 		public boolean equals(int a) 
