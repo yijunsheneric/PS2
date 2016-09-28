@@ -186,6 +186,8 @@ public class MyInteger {
 		
 //Part FOUR
 		
+// This program is using the equal method to generate the value returns. 
+		
 		
 		// Returns true if the value in the object is equal to the specified value
 		public boolean equals(int a) 

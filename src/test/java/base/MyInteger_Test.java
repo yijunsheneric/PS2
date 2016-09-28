@@ -29,6 +29,28 @@ public class MyInteger_Test {
 	@Test
 	public void test() {
 		assertTrue(1==1);
+	
 	}
 
+	
+	@BeforeClass
+	private void testisEven() {
+		assertTrue(MyInteger.isEven(6));
+		assertFalse(MyInteger.isEven(7));
+	
+	}
+	
+	public void testissOdd()    {
+		assertTrue(MyInteger.isOdd(7));
+		assertFalse(MyInteger.isOdd(8));
+		
+	}
+	public void testisPrime()     {
+		assertTrue(MyInteger.isPrime(3));
+		assertFalse(MyInteger.isPrime(4)); 
+	
+	}
+	
+	
+	
 }
