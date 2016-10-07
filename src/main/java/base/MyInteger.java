@@ -9,7 +9,7 @@ public class MyInteger {
 	
 //Part ONE
 
-// Acoording to the instruction, we need to name iValue to store the
+// According to the instruction, we need to name iValue to store the
 //(continue above) integer value. Moreover, we need to use a constructor
 //(Continue) and get method to return the iValue.  
 		
@@ -86,12 +86,13 @@ public class MyInteger {
 		
 //Part THREE
 		
-				
 // In this static method, we will need to use static method to justify whether the number is 
 // odd number, even number or the prime number. However, in this part, inside of the
-// static method, we had three different version. The first version is use the (int value).
-//  The second version is use the Myinteger into the static method. The third version is
-// use the same as the previous method  and returns. 
+// static method, we had two different version. The first version is use the (int value)as input.
+//  The second version is use the "Myinteger" as object into the static method. The third version is
+// use the same as the previous method  and returns, which is value input for calculating the number whether is
+// odd, even or prime number. We are going to use the same logic method for calculating the odd, even and prime. 
+// The methodology had been explained in the previous section. 
 		
 		
 		

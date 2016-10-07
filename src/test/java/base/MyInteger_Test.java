@@ -35,8 +35,8 @@ public class MyInteger_Test {
 	
 	@BeforeClass
 	private void testisEven() {
-		assertTrue(MyInteger.isEven(6));
-		assertFalse(MyInteger.isEven(7));
+		assertTrue(MyInteger.isEven(4));
+		assertFalse(MyInteger.isEven(5));
 	
 	}
 	
